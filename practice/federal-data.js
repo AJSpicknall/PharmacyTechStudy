@@ -1,0 +1,169 @@
+const practiceTitle = "Federal Requirements";
+const practiceStorageKey = "pharmacyTechPracticeBest:federal-requirements";
+const practiceQuestions = [
+  {
+    "question": "Under federal law, which controlled substance schedule cannot be refilled?",
+    "answer": "Schedule II",
+    "pool": [
+      "Schedule II",
+      "Schedule III",
+      "Schedule IV",
+      "Schedule V"
+    ],
+    "detail": "Schedule II prescriptions cannot be refilled under federal law. A new prescription is required."
+  },
+  {
+    "question": "Which DEA form is associated with ordering Schedule II controlled substances?",
+    "answer": "DEA Form 222",
+    "pool": [
+      "DEA Form 41",
+      "DEA Form 106",
+      "DEA Form 222",
+      "FDA Form 3500"
+    ],
+    "detail": "DEA Form 222 is used for ordering and transferring Schedule I and II controlled substances."
+  },
+  {
+    "question": "Which DEA form is used to report theft or significant loss of controlled substances?",
+    "answer": "DEA Form 106",
+    "pool": [
+      "DEA Form 41",
+      "DEA Form 106",
+      "DEA Form 222",
+      "DEA Form 224"
+    ],
+    "detail": "DEA Form 106 is used to report theft or significant loss of controlled substances."
+  },
+  {
+    "question": "Which DEA form is associated with destruction of controlled substances?",
+    "answer": "DEA Form 41",
+    "pool": [
+      "DEA Form 41",
+      "DEA Form 106",
+      "DEA Form 222",
+      "DEA Form 363"
+    ],
+    "detail": "DEA Form 41 documents destruction of controlled substances when required by DEA procedures."
+  },
+  {
+    "question": "Which federal law established prescription and OTC drug distinctions and required adequate directions for use?",
+    "answer": "Durham-Humphrey Amendment",
+    "pool": [
+      "Durham-Humphrey Amendment",
+      "Kefauver-Harris Amendment",
+      "Controlled Substances Act",
+      "Poison Prevention Packaging Act"
+    ],
+    "detail": "The Durham-Humphrey Amendment of 1951 formally distinguished prescription drugs from OTC drugs."
+  },
+  {
+    "question": "Which law requires most prescription drugs to be dispensed in child-resistant packaging unless an exception applies?",
+    "answer": "Poison Prevention Packaging Act",
+    "pool": [
+      "Pure Food and Drug Act",
+      "Poison Prevention Packaging Act",
+      "OBRA '90",
+      "DSCSA"
+    ],
+    "detail": "The Poison Prevention Packaging Act established child-resistant packaging requirements for many medications."
+  },
+  {
+    "question": "Which federal program controls retail sales of pseudoephedrine?",
+    "answer": "CMEA",
+    "pool": [
+      "REMS",
+      "CMEA",
+      "DSCSA",
+      "MedWatch"
+    ],
+    "detail": "The Combat Methamphetamine Epidemic Act (CMEA) places federal restrictions on pseudoephedrine sales."
+  },
+  {
+    "question": "What is the main purpose of a REMS program?",
+    "answer": "Manage serious medication risks",
+    "pool": [
+      "Set medication prices",
+      "Manage serious medication risks",
+      "Approve generic drugs",
+      "Assign NDC numbers"
+    ],
+    "detail": "A Risk Evaluation and Mitigation Strategy is an FDA-required safety program for certain medications with serious risks."
+  },
+  {
+    "question": "Which FDA recall class represents the greatest risk of serious adverse health consequences or death?",
+    "answer": "Class I",
+    "pool": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Market withdrawal"
+    ],
+    "detail": "Class I is the most serious FDA recall classification and involves a reasonable probability of serious harm or death."
+  },
+  {
+    "question": "What is a major purpose of the Drug Supply Chain Security Act (DSCSA)?",
+    "answer": "Track prescription drugs through the supply chain",
+    "pool": [
+      "Set technician licensing rules",
+      "Track prescription drugs through the supply chain",
+      "Determine copay amounts",
+      "Set controlled-substance schedules"
+    ],
+    "detail": "DSCSA establishes product tracing and verification requirements to help detect counterfeit, diverted, or suspect prescription drugs."
+  },
+  {
+    "question": "Which agency primarily enforces the federal Controlled Substances Act?",
+    "answer": "DEA",
+    "pool": [
+      "CDC",
+      "DEA",
+      "EPA",
+      "OSHA"
+    ],
+    "detail": "The Drug Enforcement Administration enforces federal controlled-substance laws and regulations."
+  },
+  {
+    "question": "Which schedule is defined federally as having no currently accepted medical use and a high potential for abuse?",
+    "answer": "Schedule I",
+    "pool": [
+      "Schedule I",
+      "Schedule II",
+      "Schedule III",
+      "Schedule V"
+    ],
+    "detail": "Schedule I substances are federally defined as having no currently accepted medical use and a high potential for abuse."
+  },
+  {
+    "question": "A pharmacy identifies a product covered by an FDA recall. What should happen first to affected stock?",
+    "answer": "Quarantine it from usable inventory",
+    "pool": [
+      "Dispense it quickly",
+      "Quarantine it from usable inventory",
+      "Return it to the shelf",
+      "Relabel it"
+    ],
+    "detail": "Affected product should be identified and quarantined so it cannot be accidentally dispensed while recall instructions are followed."
+  },
+  {
+    "question": "What does an NDC primarily identify?",
+    "answer": "A drug product and its labeler/package information",
+    "pool": [
+      "A prescriber's DEA registration",
+      "A drug product and its labeler/package information",
+      "A patient's insurance plan",
+      "A pharmacy technician certification"
+    ],
+    "detail": "The National Drug Code identifies drug products using segments associated with the labeler, product, and package."
+  },
+  {
+    "question": "Which organization administers the PTCE credentialing exam but does not itself create federal pharmacy law?",
+    "answer": "PTCB",
+    "pool": [
+      "DEA",
+      "FDA",
+      "PTCB",
+      "EPA"
+    ],
+    "detail": "PTCB administers pharmacy technician certification. Federal pharmacy laws and regulations come from government authorities such as Congress, FDA, DEA, and EPA."
+  }
+];

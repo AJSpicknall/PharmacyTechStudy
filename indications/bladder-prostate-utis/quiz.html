@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bladder, Enlarged Prostate, or UTIs Quiz</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="site-brand" href="../../index.html">Pharmacy Tech<br class="mobile-title-break">Study</a>
+            <div class="nav-links">
+                <a class="active" href="../../index.html">Questions</a>
+                <a href="../../results.html">Results</a>
+                <a href="../../terminology/index.html">Terminology</a>
+                <a href="../../practice/index.html">More Practice</a>
+                <a href="../../extra-results.html">Extra Results</a>
+            </div>
+        </nav>
+    </header>
+    <main class="page-container">
+        <section id="quizCard" class="quiz-card">
+            <div class="quiz-topbar">
+                <span id="medicationProgress"></span>
+                <span id="questionProgress"></span>
+                <span id="scoreDisplay"></span>
+            </div>
+            <div class="progress-shell"><div id="progressBar" class="progress-bar"></div></div>
+            <div id="medicationName" class="medication-label"></div>
+            <h1 id="questionText" class="question-title"></h1>
+            <p id="instruction" class="instruction"></p>
+            <div id="answers" class="answers"></div>
+            <div id="feedback" class="feedback"></div>
+            <div class="quiz-actions">
+                <button id="submitButton" class="btn btn-primary">Submit Answer</button>
+                <button id="nextButton" class="btn btn-primary hidden" disabled>Next Question</button>
+            </div>
+        </section>
+        <section id="resultsCard" class="results-card center hidden">
+            <p class="eyebrow">Quiz Complete</p>
+            <h1>Bladder, Enlarged Prostate, or UTIs</h1>
+            <div id="finalScore" class="results-score"></div>
+            <p id="finalMessage" class="subtitle"></p>
+            <div id="resultsBreakdown" class="results-breakdown"></div>
+            <div class="button-row">
+                <button id="restartButton" class="btn btn-primary">Try Again</button>
+                <a class="btn btn-secondary" href="index.html">Return to Indication</a>
+                <a class="btn btn-secondary" href="../../index.html">Return Home</a>
+            </div>
+        </section>
+    </main>
+    <script src="medications.js"></script>
+    <script src="../../assets/js/quiz.js"></script>
+<script src="../../assets/js/nav.js"></script></body>
+</html>
